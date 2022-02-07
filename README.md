@@ -10,3 +10,4 @@ Creating the environment
      - sudo usermod -a -G dialout $USER
 5. Programming 
    - [Get started with ESP-IDF and ESP32-DevKitC: debugging, unit testing, project analysis](https://docs.platformio.org/en/stable/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html)
+   - Note: follow the steps. Otherwise, errors such as wrong baud rate may happen

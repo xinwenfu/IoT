@@ -11,7 +11,6 @@
 ```
 sudo usermod -a -G dialout $USER
 ```
-
 ## Programming 
 
 1. Clone [ESP-IDF Components library](https://github.com/UncleRus/esp-idf-lib)

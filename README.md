@@ -1,4 +1,4 @@
-# IoT
+# IoT Lab Environment--Breadboard Version
 
 Creating the environment
 1. [Create Ubuntu VM from the .iso image](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview)

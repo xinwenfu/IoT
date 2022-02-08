@@ -7,7 +7,7 @@ Creating the environment
 3. [Install PlatformIO IDE for VSCode](https://platformio.org/install/ide?install=vscode)
 4. Add the user *IoT* into the group dialout so that *IoT* can use ttyusb0
    - [Permission denied: '/dev/ttyUSB0](https://askubuntu.com/questions/133235/how-do-i-allow-non-root-access-to-ttyusb0)
-     - sudo usermod -a -G dialout $USER
+   - sudo usermod -a -G dialout $USER
 5. Programming 
    - Clone [ESP-IDF Components library](https://github.com/UncleRus/esp-idf-lib)
    - Use ESP-IDF on PlatformIO: [Espressif IoT Development Framework under PlatformIO](https://docs.platformio.org/en/latest/frameworks/espidf.html#examples)

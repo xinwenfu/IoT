@@ -13,6 +13,8 @@ sudo usermod -a -G dialout $USER
 ```
 ## Programming 
 
+### VS Code + PlatformIO
+
 1. Clone [ESP-IDF Components library](https://github.com/UncleRus/esp-idf-lib)
 2. Use ESP-IDF on PlatformIO: [Espressif IoT Development Framework under PlatformIO](https://docs.platformio.org/en/latest/frameworks/espidf.html#examples)
    - Adding EXTRA_COMPONENT_DIRS for ESP-IDF on the PlatformIO extension (different from the way it is added to the ESP-IDF extension)

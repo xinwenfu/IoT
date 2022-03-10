@@ -57,11 +57,11 @@ Load, build and flash an example project
 #### Load a project
 Load a project by opening the project folder.
 
-<img src="imgs/vscode-espidf-openfolder.png">
+<img src="imgs/vscode-espidf-openfolder.png" width=640>
 
 #### Build, upload firmware via icons
 
-<img src="imgs/vscode-espidf-icons.png">
+<img src="imgs/vscode-espidf-icons.png" width=640>
 
 
 ### Native ESP-IDF programming environment

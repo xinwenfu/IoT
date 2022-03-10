@@ -33,7 +33,7 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 ```
 
 ### ESP-IDF 
-This is a [great guide] on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
+This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
 
 
 ## Labs

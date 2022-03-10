@@ -40,6 +40,20 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 1. [Installation](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)
 2. [Basic use of the extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/basic_use.md)
 
+Load, build and flash an example project
+- Start VS Code
+- File -> Open Folder 
+  - /home/iot/esp/esp-idf/examples/wifi/scan
+- ESP-IDF Build project
+- ESP-IDF Flash device -> UART
+  - If “No such file or directory: '/dev/ttyUSB1‘”, “pressing F1, typing ESP-IDF: Select port to use:” -> /dev/ttyUSB0
+  - If still errors, unplug and re-plug the kit
+- ESP-IDF Monitor device
+- Press reset button of the IoT kit
+- File -> Close Folder
+- Close a project
+
+
 #### Load a project
 Load a project by opening the project folder.
 

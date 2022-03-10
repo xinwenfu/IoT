@@ -37,7 +37,7 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 2. [Basic use of the extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/basic_use.md)
 
 
-### ESP-IDF 
+### Native ESP-IDF programming environment
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
 
 

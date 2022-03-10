@@ -1,5 +1,7 @@
 # IoT Lab Environment--Breadboard Version
 
+<img src="img/IoTKit.jpg">
+
 ## Creating the environment
 1. [Create Ubuntu VM from the .iso image](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview)
    - Ubuntu username: IoT; Password: toi

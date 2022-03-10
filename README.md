@@ -43,7 +43,7 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 Load, build and flash an example project
 - Start VS Code
 - File -> Open Folder 
-  - /home/iot/esp/esp-idf/examples/wifi/scan
+  - Example project: /home/iot/esp/esp-idf/examples/wifi/scan
 - ESP-IDF Build project
 - ESP-IDF Flash device -> UART
   - If “No such file or directory: '/dev/ttyUSB1‘”, “pressing F1, typing ESP-IDF: Select port to use:” -> /dev/ttyUSB0

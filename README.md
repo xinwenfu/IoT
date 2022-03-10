@@ -71,9 +71,9 @@ This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](h
 ## Labs
 1. [ESP32 via VS Code and PlatformIO](https://github.com/xinwenfu/tst-dht-lab)
 2. [ESP32 UART and Flash Hack](https://github.com/xinwenfu/ESP32-UART-and-Flash-Hack)
-3. [Basic OTA via WiFi on ESP32](https://github.com/xinwenfu/ota)
-4. [Secure ESP32 OTA through HTTPS](https://github.com/PBearson/Get-Started-With-ESP32-OTA)
-5. [Debugging ESP32 App with ESP-PROG: JTAG Debugger](https://github.com/PBearson/ESP32-With-ESP-PROG-Demo)
+3. [Debugging ESP32 App with ESP-PROG: JTAG Debugger](https://github.com/PBearson/ESP32-With-ESP-PROG-Demo)
+4. [Basic OTA via WiFi on ESP32](https://github.com/xinwenfu/ota)
+5. [Secure ESP32 OTA through HTTPS](https://github.com/PBearson/Get-Started-With-ESP32-OTA)
 6. [MITM attacks against http and https through mitmproxy](https://github.com/xinwenfu/mitmproxy-get)
 7. [Network Security on ESP32 through Amazon AWS IoT](https://github.com/xinwenfu/Network-Security-on-ESP32)
 8. [ESP32 AWS IoT with ATECC608A](https://github.com/PBearson/esp-aws-iot/blob/master/README.md)

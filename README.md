@@ -11,6 +11,8 @@
 ```
 sudo usermod -a -G dialout $USER
 ```
+5. For ease of transferring files out of Ubuntu VM to the host computer, a [shared folder](https://net2.com/how-to-share-folders-between-your-ubuntu-virtualbox-and-your-host-machine/) can be created.
+
 ## Programming 
 
 ### VS Code + PlatformIO

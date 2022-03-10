@@ -63,9 +63,6 @@ Load a project by opening the project folder.
 
 <img src="imgs/vscode-espidf-icons.png">
 
-#### Load menuconfig to configure the project
-
-<img src="imgs/vscode-espidf-menuconfig.png">
 
 ### Native ESP-IDF programming environment
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).

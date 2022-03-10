@@ -40,6 +40,18 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 1. [Installation](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)
 2. [Basic use of the extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/basic_use.md)
 
+#### Load a project
+Load a project by opening the project folder.
+
+<img src="imgs/vscode-espidf-openfolder.png">
+
+#### Build, upload firmware via icons
+
+<img src="imgs/vscode-espidf-icons.png">
+
+#### Load menuconfig to configure the project
+
+<img src="imgs/vscode-espidf-menuconfig.png">
 
 ### Native ESP-IDF programming environment
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).

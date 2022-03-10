@@ -32,6 +32,11 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 #include <Adafruit_Sensor.h>
 ```
 
+### VS Code + ESP-IDF
+1. [Installation](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)
+2. [Basic use of the extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/basic_use.md)
+
+
 ### ESP-IDF 
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
 

@@ -46,9 +46,9 @@ Load, build and flash an example project
   - Example project: /home/iot/esp/esp-idf/examples/wifi/scan
 - ESP-IDF Build project
 - ESP-IDF Flash device -> UART
-  - If “No such file or directory: '/dev/ttyUSB1‘”, “pressing F1, typing ESP-IDF: Select port to use:” -> /dev/ttyUSB0
+  - If “No such file or directory: '/dev/ttyUSB1'”, pressing F1, typing "ESP-IDF: Select port to use:" -> /dev/ttyUSB0
+  - During connecting to /dev/ttyUSB0, may need to hold the BOOT (IO0) button of the ESP32 until uploading starts
   - If still errors, unplug and re-plug the kit
-  - If still errors, hold the BOOT (IO0) button of the ESP32 until uploading starts
 - ESP-IDF Monitor device
 - Press reset button of the IoT kit
 - File -> Close Folder

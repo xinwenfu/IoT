@@ -72,6 +72,10 @@ Load a project by opening the project folder.
 ### Native ESP-IDF programming environment
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
 
+Set up the environment variables
+```
+. $HOME/esp/esp-idf/export.sh
+```
 
 ## Labs
 These are the labs I used in my class.

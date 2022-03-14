@@ -74,6 +74,8 @@ This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](h
 
 
 ## Labs
+These are the labs I used in my class.
+
 1. [ESP32 via VS Code and PlatformIO](https://github.com/xinwenfu/tst-dht-lab)
 2. [ESP32 UART and Flash Hack](https://github.com/xinwenfu/ESP32-UART-and-Flash-Hack)
 3. [Debugging ESP32 App with ESP-PROG: JTAG Debugger](https://github.com/PBearson/ESP32-With-ESP-PROG-Demo)

@@ -86,5 +86,7 @@ These are the labs I used in my class.
 4. [Basic OTA via WiFi on ESP32](https://github.com/xinwenfu/ota)
 5. [Secure ESP32 OTA through HTTPS](https://github.com/PBearson/Get-Started-With-ESP32-OTA)
 6. [MITM attacks against http and https through mitmproxy](https://github.com/xinwenfu/mitmproxy-get)
-7. [Network Security on ESP32 through Amazon AWS IoT](https://github.com/xinwenfu/Network-Security-on-ESP32)
+7. Network Security on ESP32 through Amazon AWS IoT
+   - [AWS IoT MQTT Subscribe/Publish example](https://github.com/xinwenfu/Network-Security-on-ESP32)
+   - [AWS IoT MQTT Subscribe/Publish PlatformIO Project](https://github.com/xinwenfu/platformio-espidf-aws-iot)
 8. [ESP32 AWS IoT with ATECC608A](https://github.com/PBearson/esp-aws-iot/blob/master/README.md)

@@ -90,3 +90,7 @@ These are the labs I used in my class.
    - [AWS IoT MQTT Subscribe/Publish ESP-IDF original example](https://github.com/xinwenfu/Network-Security-on-ESP32)
    - [AWS IoT MQTT Subscribe/Publish PlatformIO ESP-IDF Project](https://github.com/xinwenfu/platformio-espidf-aws-iot)
 8. [ESP32 AWS IoT with ATECC608A](https://github.com/PBearson/esp-aws-iot/blob/master/README.md)
+9. Secure storage
+   - [ESP32 Flash Encryption Tutorial](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)
+   - [SP32 Secure Key Storage Tutorial](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
+10. [ESP32 Secure Boot Tutorial](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)

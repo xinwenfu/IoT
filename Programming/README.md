@@ -1,8 +1,8 @@
-## Programming 
+# Programming 
 
 There are at least four options of programming for ESP32: VS Code + PlatformIO, VS Code + ESP-IDF, Native ESP-IDF programming environment, and Arduino IDE. Arduino IDE is easy to use, but is limited with functionalities such as debugging. VS Code + ESP-IDF and the native ESP-IDF programming environment are essentionally the same while VS Code + ESP-IDF provides a GUI interface and a user does not need to remember various ESP-IDF commands. VS Code + PlatformIO supports both Arduino framework and ESP-IDF programming framework. An Arduino ESP32 project can be imported into VS Code + PlatformIO. The ESP-IDF fromawork under VS Code + PlatformIO is smililar to VS Code + ESP-IDF and naive ESP-IDF programming environment, but their configugration grammars are different. So we can use whatever is convenient.
 
-### VS Code + PlatformIO
+## VS Code + PlatformIO
 
 This is a great tutorial on using [PlatformIO with VS Code](https://docs.platformio.org/en/latest/platforms/espressif32.html#tutorials).
 
@@ -21,7 +21,7 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 #include <Adafruit_Sensor.h>
 ```
 
-### VS Code + ESP-IDF
+## VS Code + ESP-IDF
 1. [Installation](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)
 2. [Basic use of the extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/basic_use.md)
 
@@ -40,17 +40,17 @@ Load, build and flash an example project
 - Close a project
 
 
-#### Load a project
+### Load a project
 Load a project by opening the project folder.
 
 <img src="../imgs/vscode-espidf-openfolder.png">
 
-#### Build, upload firmware via icons
+### Build, upload firmware via icons
 
 <img src="../imgs/vscode-espidf-icons.png">
 
 
-### Native ESP-IDF programming environment
+## Native ESP-IDF programming environment
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
 
 Set up the environment variables

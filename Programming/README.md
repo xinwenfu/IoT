@@ -4,6 +4,7 @@ There are at least four options of programming for ESP32: VS Code + PlatformIO, 
 
 ## VS Code + PlatformIO
 
+### PlatformIO--ESP-IDF framework
 This is a great tutorial on using [PlatformIO with VS Code](https://docs.platformio.org/en/latest/platforms/espressif32.html#tutorials).
 
 1. Clone [ESP-IDF Components library](https://github.com/UncleRus/esp-idf-lib)
@@ -20,6 +21,24 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 ``` 
 #include <Adafruit_Sensor.h>
 ```
+
+### Using Native ESP-IDF Project with PlatformIO
+
+Here is an introduction on [Espressif IoT Development Framework](https://docs.platformio.org/en/stable/frameworks/espidf.html) within PlatformIO. Looks useful when a native ESP-IDF project is imported into PlatformIO.
+- Create a PlatformIO project using the ESP-IDF framework
+- Keep the platformio.ini file and remove all other files.
+- Copy the native esp-idf files and folders to the PlatformIO project folder.
+- Use the src_dir option in platformio.ini to to specify *main* as the folder with source files. Here is an example
+```
+[platformio]
+src_dir = main
+
+[env:esp32dev]
+platform = espressif32
+framework = espidf
+board = esp32dev
+```
+Seems the approach works.
 
 ## VS Code + ESP-IDF
 1. [Installation](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)

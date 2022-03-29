@@ -5,7 +5,7 @@ Our IOT kit has two versions.
 2. [Breadboard version](Breadboard)
 
 ## Lab setup
-We use a Ubuntu VM and Visual Studio Code with the PlatformIO Extension and ESP-IDF extension.
+We use an Ubuntu VM and Visual Studio Code with the PlatformIO Extension and ESP-IDF extension.
 - [Ubuntu VM](UbuntuVM)
 - [Programming environment](Programming)
 

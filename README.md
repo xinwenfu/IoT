@@ -4,7 +4,8 @@ This repository is dedicated to the [IoT security and privacy classes](http://ww
 2. [Breadboard version](Breadboard)
 
 ## Lab setup
-We use Ubuntu VM. 
+- [Ubuntu VM](UbuntuVM)
+- [Programming environment](Programming)
 
 ## IoT security and privacy Labs
 These are the labs I used in my class.

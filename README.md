@@ -1,4 +1,4 @@
-
+This repository is dedicated to the [IoT security and privacy classes](http://www.cs.uml.edu/~xinwenfu/Teaching.html) taught by [Dr. Xinwen Fu](http://www.cs.uml.edu/~xinwenfu/index.html) of University of Massachusetts Lowell.
 
 ## Labs
 These are the labs I used in my class.

@@ -1,7 +1,10 @@
 This repository is dedicated to the [IoT security and privacy classes](http://www.cs.uml.edu/~xinwenfu/Teaching.html) taught by [Dr. Xinwen Fu](http://www.cs.uml.edu/~xinwenfu/index.html) of University of Massachusetts Lowell.
 ## Hardware
 1. [PCB version](https://github.com/Pluto-110/SIC2_EDU)
-2. [Breadboard version](LabSetup)
+2. [Breadboard version](Breadboard)
+
+## Lab setup
+We use Ubuntu VM. 
 
 ## IoT security and privacy Labs
 These are the labs I used in my class.

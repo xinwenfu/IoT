@@ -1,7 +1,5 @@
 # IoT Lab Environment--Breadboard Version
 
-This repository is dedicated to the [IoT security and privacy classes](http://www.cs.uml.edu/~xinwenfu/Teaching.html) taught by [Dr. Xinwen Fu](http://www.cs.uml.edu/~xinwenfu/index.html) of University of Massachusetts Lowell.
-
 <img src="../imgs/IoTKit.jpg" height=480>
 
 ## Creating the environment

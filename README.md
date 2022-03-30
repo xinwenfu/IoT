@@ -35,4 +35,4 @@ These are the labs I used in my class.
 
 This is a project sponsored by NSF and NSA. 
 
-<img src="imgs/NSF_logo.png" height=100> <img src="imgs/NSA.png" height=90> 
+<img src="imgs/NSF_logo.png" height=100> <img src="imgs/NSA.png" height=85> 

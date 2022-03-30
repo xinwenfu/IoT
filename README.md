@@ -1,7 +1,7 @@
 # IoT Security and Privacy Labs
 
-<img src="imgs/NSF_logo.png" width=100> 
-This repository is dedicated to the [IoT security and privacy classes](http://www.cs.uml.edu/~xinwenfu/Teaching.html) taught by [Dr. Xinwen Fu](http://www.cs.uml.edu/~xinwenfu/index.html) of University of Massachusetts Lowell. This is a project sponsored by NSF. 
+
+This repository is dedicated to the [IoT security and privacy classes](http://www.cs.uml.edu/~xinwenfu/Teaching.html) taught by [Dr. Xinwen Fu](http://www.cs.uml.edu/~xinwenfu/index.html) of University of Massachusetts Lowell. 
 
 ## Hardware
 Our IoT kit has two versions.
@@ -32,3 +32,6 @@ These are the labs I used in my class.
     - [ESP32 Flash Encryption Tutorial](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)
     - [SP32 Secure Key Storage Tutorial](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
 11. [ESP32 Secure Boot Tutorial](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)
+
+This is a project sponsored by NSF. 
+<img src="imgs/NSF_logo.png" width=100> 

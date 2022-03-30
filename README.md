@@ -1,8 +1,7 @@
 # IoT Security and Privacy Labs
 
+<img src="imgs/NSF_logo.png" width=200>
 This repository is dedicated to the [IoT security and privacy classes](http://www.cs.uml.edu/~xinwenfu/Teaching.html) taught by [Dr. Xinwen Fu](http://www.cs.uml.edu/~xinwenfu/index.html) of University of Massachusetts Lowell. This is a project sponsored by NSF. 
-
-<img src="imgs/NSF_logo.png" width=250>
 
 ## Hardware
 Our IoT kit has two versions.

@@ -34,4 +34,4 @@ These are the labs I used in my class.
 11. [ESP32 Secure Boot Tutorial](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)
 
 This is a project sponsored by NSF and NSA. 
-<img src="imgs/NSF_logo.png" height=100> <img src="imgs/NSA.png" height=100> 
+<img src="imgs/NSF_logo.png" height=100> <img src="imgs/NSA.png" height=80> 

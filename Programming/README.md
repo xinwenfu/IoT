@@ -22,6 +22,8 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 #include <Adafruit_Sensor.h>
 ```
 
+Using *PlatformIO* -> *Build*/*Upload* is the most reliable way to build a project and upload the firmware.
+
 <img src="../imgs/PlatformIO-Build-Upload.png">
 
 ### Using Native ESP-IDF Project with PlatformIO

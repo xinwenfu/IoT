@@ -22,6 +22,8 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 #include <Adafruit_Sensor.h>
 ```
 
+<img src="../imgs/PlatformIO-Build-Upload.png">
+
 ### Using Native ESP-IDF Project with PlatformIO
 
 Here is an introduction on [Espressif IoT Development Framework](https://docs.platformio.org/en/stable/frameworks/espidf.html) within PlatformIO. Looks useful when a native ESP-IDF project is imported into PlatformIO.

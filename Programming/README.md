@@ -9,7 +9,7 @@ This is a great tutorial on using [PlatformIO with VS Code](https://docs.platfor
 
 1. Clone [ESP-IDF Components library](https://github.com/UncleRus/esp-idf-lib)
 2. Use ESP-IDF on PlatformIO: [Espressif IoT Development Framework under PlatformIO](https://docs.platformio.org/en/latest/frameworks/espidf.html#examples)
-   - Adding EXTRA_COMPONENT_DIRS for ESP-IDF on the PlatformIO extension (different from the way it is added to the ESP-IDF extension)
+   - Adding EXTRA_COMPONENT_DIRS for ESP-IDF on the PlatformIO extension (different from the way it is added to the ESP-IDF extension). Using EXTRA_COMPONENT_DIRS option in the root CMakeLists.txt file
 ```
 list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 ```

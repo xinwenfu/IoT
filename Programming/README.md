@@ -81,3 +81,9 @@ Set up the environment variables
 ```
 . $HOME/esp/esp-idf/export.sh
 ```
+
+## Troubleshooting
+- Use correct USB device such as /dev/ttyUSB0
+- During connecting to /dev/ttyUSB0, may need to hold the BOOT (IO0) button of the ESP32 until uploading starts
+- If still errors, unplug and re-plug the kit
+- If still errors, change a USB port since different USB ports may provide different power supplies

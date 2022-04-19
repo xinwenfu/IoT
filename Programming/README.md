@@ -83,6 +83,7 @@ Set up the environment variables
 ```
 
 ## Troubleshooting
+- Use a correct micro USB cable that supports both data transfer and power supply, like the typical smartphone micro USB cable
 - Use a correct USB-serial device such as /dev/ttyUSB0
 - During connecting to /dev/ttyUSB0, may need to hold the BOOT (IO0) button of the ESP32 until uploading starts
 - Press reset if no output from the serial port

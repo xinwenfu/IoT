@@ -32,6 +32,7 @@ These are the labs I used in my class.
     - [ESP32 Flash Encryption](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)
     - [SP32 Secure Key Storage](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
 11. [ESP32 Secure Boot](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)
+12. [ESP32 Software Security Demo](https://github.com/PBearson/ESP32_Remote_Attack_Tutorial)
 
 This is a project sponsored by NSF and NSA. 
 

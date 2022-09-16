@@ -30,7 +30,7 @@ These are the labs I used in my class.
 8. [ESP32 AWS IoT with ATECC608A](https://github.com/PBearson/esp-aws-iot/blob/master/README.md)
 9. Secure storage
     - [ESP32 Flash Encryption](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)
-    - [SP32 Secure Key Storage](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
+    - [ESP32 Secure Key Storage](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
 10. [ESP32 Secure Boot](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)
 11. [ESP32 Software Security Demo](https://github.com/PBearson/ESP32_Remote_Attack_Tutorial)
 

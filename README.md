@@ -5,7 +5,7 @@ This repository is dedicated to the [IoT security and privacy classes](http://ww
 
 ## Hardware
 Our IoT kit has two versions.
-1. [PCB version](https://github.com/Pluto-110/SIC2_EDU)
+1. [PCB version](https://github.com/xinwenfu/SaTC-PCB)
 2. [Breadboard version](Breadboard)
 
 ## Lab setup

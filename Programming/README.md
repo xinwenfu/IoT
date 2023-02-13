@@ -63,6 +63,8 @@ Load, build and flash an example project
 - File -> Close Folder
 - Close a project
 
+If IDF_PATH has issue, refer to 
+[Add IDF_PATH & idf.py PATH to User Profile](https://docs.espressif.com/projects/esp-idf/en/v3.3.1/get-started-cmake/add-idf_path-to-profile.html)
 
 ### Load a project
 Load a project by opening the project folder.

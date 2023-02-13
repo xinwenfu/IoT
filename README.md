@@ -16,7 +16,7 @@ We use an Ubuntu VM and Visual Studio Code with the PlatformIO Extension and ESP
 ## IoT security and privacy Labs
 These are the labs I used in my class.
 
-1. [ESP32 via VS Code and PlatformIO](https://github.com/xinwenfu/tst-dht-lab)
+1. [Get Started with ESP32 via VS Code and PlatformIO](https://github.com/xinwenfu/tst-dht-lab)
 2. [ESP32 UART and Flash Hack](https://github.com/xinwenfu/ESP32-UART-and-Flash-Hack)
 3. JTAG Debugging of ESP32
    - [ESP32 With ESP-PROG: PCB version](https://github.com/PBearson/ESP32-PCB-With-ESP-PROG-Demo)

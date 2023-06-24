@@ -19,21 +19,18 @@ These are the labs I used in my class.
 1. [Get Started with ESP32 via VS Code and PlatformIO](https://github.com/xinwenfu/tst-dht-lab)
 2. [Read Sensor Data and Show on Display](https://github.com/DaintyJet/ESP32-Display)
 3. [ESP32 UART and Flash Hack](https://github.com/xinwenfu/ESP32-UART-and-Flash-Hack)
-4. JTAG Debugging of ESP32
-   - [ESP32 With ESP-PROG: PCB version](https://github.com/PBearson/ESP32-PCB-With-ESP-PROG-Demo)
-   - [Debugging ESP32 App with ESP-PROG: JTAG Debugger](https://github.com/PBearson/ESP32-With-ESP-PROG-Demo)
-5. [Basic OTA via WiFi on ESP32](https://github.com/xinwenfu/ota)
-6. [Secure ESP32 OTA through HTTPS](https://github.com/PBearson/Get-Started-With-ESP32-OTA)
-7. [MITM attacks against http and https through mitmproxy](https://github.com/xinwenfu/mitmproxy-get)
-8. Network Security on ESP32 through Amazon AWS IoT
-   - [AWS IoT MQTT Subscribe/Publish ESP-IDF original example](https://github.com/xinwenfu/Network-Security-on-ESP32)
-   - [AWS IoT MQTT Subscribe/Publish PlatformIO ESP-IDF Project](https://github.com/xinwenfu/platformio-espidf-aws-iot)
-9. [ESP32 AWS IoT with ATECC608A](https://github.com/PBearson/esp-aws-iot/blob/master/README.md)
-10. Secure storage
-    - [ESP32 Flash Encryption](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)
-    - [ESP32 Secure Key Storage](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
-11. [ESP32 Secure Boot](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)
-12. [ESP32 Software Security Demo](https://github.com/PBearson/ESP32_Remote_Attack_Tutorial)
+4. JTAG Debugging of ESP32: [PCB Version](https://github.com/PBearson/ESP32-PCB-With-ESP-PROG-Demo)
+5. JTAG Debugging of ESP32: [Breadboard Version](https://github.com/PBearson/ESP32-With-ESP-PROG-Demo)
+6. [Basic OTA via WiFi on ESP32](https://github.com/xinwenfu/ota)
+7. [Secure ESP32 OTA through HTTPS](https://github.com/PBearson/Get-Started-With-ESP32-OTA)
+8. [MITM attacks against http and https through mitmproxy](https://github.com/xinwenfu/mitmproxy-get)
+9. Network Security on ESP32 through Amazon AWS IoT: [ESP-IDF original example](https://github.com/xinwenfu/Network-Security-on-ESP32)
+10. Network Security on ESP32 through Amazon AWS IoT:[PlatformIO ESP-IDF Project](https://github.com/xinwenfu/platformio-espidf-aws-iot)
+11. [ESP32 AWS IoT with ATECC608A](https://github.com/PBearson/esp-aws-iot/blob/master/README.md)
+12. ESP32 Secure storage: [Flash Encryption](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)
+13. ESP32 Secure storage: [Secure Key Storage](https://github.com/PBearson/ESP32_Secure_Key_Storage_Tutorial)
+14. [ESP32 Secure Boot](https://github.com/PBearson/ESP32_Secure_Boot_Tutorial)
+15. [ESP32 Software Security Demo](https://github.com/PBearson/ESP32_Remote_Attack_Tutorial)
 
 This is a project sponsored by NSF and NSA. 
 

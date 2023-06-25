@@ -36,14 +36,3 @@ There are various ESP32 development boards on market.
 
 ## Pin Layout
 
-This is the layout for those IO pins. On the left, are all the pins. You should assume the function of this chip has a micro-USB port, and you need to orient your device to be the same as the one in the diagrams. The top left pin is a power source of 3.3V, that's why  have this cable inserted to this legs column allowing this board to serve as a power source. Our sensor needs a power source and that's why we connect the 3.3V leg to the positive leg of the sensor.
-
-The top right pin is the  ground leg, and because we need a loop, a closed circuit both a power and a ground we connect the ground leg of the ESP32 to the negative leg of the sensor. The data leg of the sensor is connected to GPIO port 22. GPIO stands for General Purpose Input Output and GPIO22 is used for a particular communication protocol I2C. This sensor is using the I2C protocol which is why we need to connect the dataline of the sensor to GPIO22, if this is not done it will not work. Different sensors will use different protocols, you will need to look at the documentation of a particular sensor to see which pin you will need to connect it to.    
-
-
-Slide 11: Chart of IO pins
-
-
-
-This is the definition of all the IO pins and all the legs. you need to refer to this chart here to
-understand the layout. 

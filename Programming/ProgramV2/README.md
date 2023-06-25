@@ -22,9 +22,10 @@ Load a project by opening the project folder.
 <img src="https://github.com/xinwenfu/IoT/blob/main/imgs/vscode-espidf-icons.png" width=720>
 
 ## Native ESP-IDF programming environment
+Within VS Code, on the menu bar, click *Terminal*->*New Terminal* to start a new terminal and use the native ESP-IDF programming environment.
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).
 
-Set up the environment variables
+Set up the environment variables before using all the command line tools.
 ```
 . $HOME/esp/esp-idf/export.sh
 ```

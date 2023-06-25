@@ -14,7 +14,7 @@ We use an Ubuntu VM and Visual Studio Code with the PlatformIO Extension and ESP
 - [Programming environment](Programming/Environment)
 
 ## Programming ESP32
-### Introduction to ESP32
+1. [Introduction to ESP32](https://github.com/xinwenfu/IoT/tree/main/Programming/ESP32)
 
 ## IoT security and privacy Labs
 These are the labs I used in my class.

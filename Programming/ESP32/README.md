@@ -23,25 +23,18 @@ Different manufacturers may integrate different components onto the module.
 
 An ESP32 development board may contain an ESP32 module and other supporting components on a printed circuit board (PCB) so that programmers can try to become acquainted with the ESP32. We may also test our project code on the development board.
 In the real world, we may have to develop our own PCB with an ESP32 MCU or an ESP32 module to achieve desired functionalities.
-For example we can integrate a SD card or sensors onto the PCB so that the ESP32 is used to read the sensor data data and store it on the SD card. Ot course, the ESP32 supports WiFi and Bluetooth and can send the data over the Internet. 
+For example we can integrate a SD card or sensors onto the PCB so that the ESP32 is used to read the sensor data data and store it on the SD card. Of course, the ESP32 supports WiFi and Bluetooth and can send the data over the Internet. 
 
 ![image](https://github.com/xinwenfu/IoT/blob/main/imgs/IoTkit-FrontBack.png)
 
-This image is of the development board,  it has a so we add the micro-USB port which is used to so you can power up the development board and ESP32module easily. This micro-USB port also works as a data communication channel. You can see labeled in the image a USB-UART bridge, the ESP32 module itself doesn't support usb. We use this bridge, the USB-UART chip to convert the USB signal into a UART signal. UART is another kind of communication protocol supported by most microcontrollers. That's why we needed this bridge, this chip to convert the micro usb signal into the url signal so that the ESP32 can understand the signal. Why do we have so many legs along the sides? 
+Out IoT kit is a development board. The ESP-WROOM-32 module we use doesn't support USB, but UART. The micro-USB port on our IoT kit is used to power up the development board and program the ESP32. A USB-UART bridge chip on the development board is used to convert a USB signal into a UART signal. UART is a kind of communication protocol supported by most microcontrollers.
 
-Those legs are only the extension of the legs of the microcontroller itself, there are wires from
-the chips legs here to the large legs on the side of the board here . The reason this is done is  the space between two legs on the chip of the microcontroller is very so small. This makes it very hard for normal people to use. To try and solder something onto the leg of the chip is very hard, but soldering it onto the larger leg, which is connected to the chip’s leg by a wire, is much easier. The larger legs are an extension of the chip module itself as they are directly connected by a wire.
+The pins on our IoT kit are the extension of the pins of the ESP32. Conductive traces on the PCB connect them together. The space between two pins on the ESP32 is very so small. It is not easy to connect extra components such as extra sensors to the ESP32. The extension pins on our IoT kit make it easy to connect extra components to the IoT kit. For example, our IoT kit can be used with a breadboard and jump wires to test various sensors.
 
-Normally you do not use a development board in the final production, it is used to test to code.
-
+There are various ESP32 development boards on market.
 
 
-Slide 9: ESP32-WROOM-32
-
-The ESP-WROOM-32, this is the one module made by one manufacturer and this is one kind of ESP32 module. We have the USB-UART bridge mentioned before, this provides up to 3 Mbps of transfer rates. There are two buttons on the development board. One is called reset, this means you want to restart the code execution from the beginning inside of this chip. The boot button is used when flashing the code, you push the button and you can flash your code into the chip. Sometimes you may not have to press the boot button to get the firmware download to work,if you cannot flash your code into the microcontroller you need to push the boot button. The micro-USB port acts as both a power supply and data communications cable, the cable used must contain both a power and data line. If the cable only has a power line you will be unable to communicate with the device. The IO pins, the legs on the sides of the development board, some legs are power or ground but most are for IO some will be for input, and others output. Input is sending data into the chip, and output is sending data out of the chip, most legs are for both input and output - two way communication, but some are for only input or only output.
-
-
-Slide 10: Pin Layout
+## Pin Layout
 
 This is the layout for those IO pins. On the left, are all the pins. You should assume the function of this chip has a micro-USB port, and you need to orient your device to be the same as the one in the diagrams. The top left pin is a power source of 3.3V, that's why  have this cable inserted to this legs column allowing this board to serve as a power source. Our sensor needs a power source and that's why we connect the 3.3V leg to the positive leg of the sensor.
 

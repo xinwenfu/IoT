@@ -6,17 +6,11 @@ A  is basically a small computer. It's a type of System on Chip (SoC). We know t
 
 ## ESP32
 
-ESP32 is a MCU. It has a dual core processor clocked at 230 Mhz. It has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 has 520 KB of SRAM, Wi-Fi, bluetooth and 32 I/O pins. Those IO pins can interact with the external sensors, actuators and other things.
-
-Here is the block diagram of the ESP32 microcontroller. On the left there is a block for SPI which is a communication port. This is a module itself; the ESP32 doesn't have the embedded flash itself; it is something you can add to the module. The embedded flash is added so you can put your code on it and the ESP32 can store and access it. The ESP32 has all the communication ports as well. The problem is that you need the flash, clock and other things to directly use the ESP32 chip.
+ESP32 is a MCU. It has a dual core processor clocked at 230 Mhz. It has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 has 520 KB of SRAM, Wi-Fi, bluetooth and 32 I/O pins. Those IO pins can interact with the external sensors, actuators and other things. Here is the block diagram of the ESP32 microcontroller. The ESP32 doesn't have the embedded flash itself.
 
 ![image](Espressif_ESP32_Chip_Function_Block_Diagram.png)
 
-
-
-Slide 6: ESP32 Modules
-
-That's why we have something called an ESP32 module. The What happens is the ESP32 System on Chip is as we know missing a few things necessary for direct use. That's why people make ESP32 modules, for example a module will add the following components to the ESP32 system on chip. A module will add a flash memory so that it can contain firmware and data, a crystal and it is basically a clock this is necessary as a cpu runs on clock signals, and an antenna so that wi-fi bluetooth can reach a reasonable decent distance.
+The ESP32 needs some additional components to work as a computer. Various *ESP32 modules* are created to include embedded flash, crystal (for the RTC), an antenna and other components. A module has the flash memory so that it can contain firmware and data. A crystal is basically a clock, which is needed by the CPU to run. An antenna is needed by Wi-Fi and bluetooth to reach a decent communication range.
 
 This module contains the ESP32 system on chip, flash memory, antenna, and a clock integrated inside this chip so it's become another system on  chip which you  can use directly. These modules are more for practical use as you don't have to add all the necessary components manually yourself. It integrates the ESP32 and other necessary accessories, and you may want to integrate other things into these modules, think well i want a sd card and the one i want to integrate sd card into hereif you are the manufacturer you can., as t They design the modules so if you want to add a SD card to the module directly you have to be the manufacturer, They just added those components to esp32 so this will work as a minimum System on Chip. There are different versions of modules for the ESP32, and you can see here the version on the left  is
 called the ESP-WROOM-32 and the one on the right is an ESP-32S. Manufacturers integrate different components onto the module, or they may have different layout or some other things but the core part is still the ESP32.

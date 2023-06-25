@@ -33,6 +33,11 @@ The pins on our IoT kit are the extension of the pins of the ESP32. Conductive t
 
 There are various ESP32 development boards on market.
 
-
 ## Pin Layout
+The pins of a MCU are a physical interface between a MCU and the outside world.
+The temperature and humidity sensor on our IoT kit is connected to two pins, IO27 and IO33. Therefore, the MCU read sensor data from the two pin.
+A blue LED light is connected to IO2. We can control and turn on/off the LED light.
 
+How are the pins used to transmit data? At the simplest level, pins can be treated as switches. When we want to turn on/off the LED light, we can control the ESP32 to turn the pin/switch on/off. When it is turned on, the pin has a high voltage of 3.3V. When it is turned off, the pin has a low voltage of 0V. When the sensor outputs a signal, i.e., a sequence of 1s and 0s, it follows a pattern to turn the switch on/off. Basically, the voltage level is used to represent 1 and 0. High voltage means 1 and low voltage means 0. The MCU can use a similar technique to output a signal to a particular device.
+
+Apparently, the compoent connected to the MCU and the MCU must use the same protocol for data communicaiton. Otherwise, the MCU and the component will not be able to understand each other.

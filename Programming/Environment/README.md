@@ -73,7 +73,7 @@ Load a project by opening the project folder.
 
 ### Build, upload firmware via icons
 
-<img src="../imgs/vscode-espidf-icons.png">
+<img src="../../imgs/vscode-espidf-icons.png">
 
 
 ## Native ESP-IDF programming environment

@@ -8,7 +8,7 @@ A microcontroller (MCU) is a type of System on Chip (SoC). We know the CPU is th
 
 ESP32 is a MCU made by Espressif. It has a dual core processor clocked at 230 Mhz. It has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 has 520 KB of SRAM, Wi-Fi, bluetooth and 32 I/O pins. Those IO pins can interact with the external sensors, actuators and other things. Here is the block diagram of the ESP32 microcontroller. The ESP32 doesn't have the embedded flash itself.
 
-<img src="Espressif_ESP32_Chip_Function_Block_Diagram.png" width=720>
+<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/Espressif_ESP32_Chip_Function_Block_Diagram.png" width=720>
 
 ## ESP32 Module
 Various *ESP32 modules* are created to include the ESP32 MCU, embedded flash, crystal (for the RTC), an antenna and other components and work fully as a computer. 

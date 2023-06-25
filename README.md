@@ -11,7 +11,7 @@ Our IoT kit has two versions.
 ## Lab setup
 We use an Ubuntu VM and Visual Studio Code with the PlatformIO Extension and ESP-IDF extension for prorgamming.
 - [Ubuntu VM](UbuntuVM)
-- [Programming environment](Programming)
+- [Programming environment](Programming/Environment)
 
 ## Programming ESP32
 ### Introduction to ESP32

@@ -10,7 +10,7 @@ ESP32 is a MCU. It has a dual core processor clocked at 230 Mhz. It has a partic
 
 Here is the block diagram of the ESP32 microcontroller. On the left there is a block for SPI which is a communication port. This is a module itself; the ESP32 doesn't have the embedded flash itself; it is something you can add to the module. The embedded flash is added so you can put your code on it and the ESP32 can store and access it. The ESP32 has all the communication ports as well. The problem is that you need the flash, clock and other things to directly use the ESP32 chip.
 
-![image](https://en.wikipedia.org/wiki/ESP32#/media/File:Espressif_ESP32_Chip_Function_Block_Diagram.svg)
+![image](Espressif_ESP32_Chip_Function_Block_Diagram.png)
 
 
 

@@ -46,6 +46,6 @@ How are the pins used to transmit data? At the simplest level, pins can be treat
 
 Apparently, the compoent connected to the MCU and the MCU must use the same protocol for data communicaiton. Otherwise, the MCU and the component will not be able to understand each other. Some pins of the MCU have particular usage with supporting circuitry. Other pins are general-purpose input/output (GPIO) pins, which can be controled by the code. It means we can test our own way of data transmission between the MCU and the components connected to the MCU.
 
-Below is the pin layout of the ESP-WROOM-32 module on our IoT kit.
+Below is the [pin layout of the ESP-WROOM-32 module](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/) on our IoT kit.
 
 <img src="https://github.com/xinwenfu/IoT/blob/main/imgs/esp32-pinout-chip-ESP-WROOM-32.png" width=720>

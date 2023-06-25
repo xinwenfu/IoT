@@ -29,11 +29,11 @@ If IDF_PATH has issue, refer to
 ### Load a project
 Load a project by opening the project folder.
 
-<img src="https://github.com/xinwenfu/IoT/tree/main/imgs/vscode-espidf-openfolder.png">
+<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/vscode-espidf-openfolder.png">
 
 ### Build, upload firmware via icons
 
-<img src="https://github.com/xinwenfu/IoT/tree/main/imgs/vscode-espidf-icons.png">
+<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/vscode-espidf-icons.png">
 
 
 ## Native ESP-IDF programming environment

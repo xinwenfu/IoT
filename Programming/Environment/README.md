@@ -24,7 +24,7 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 
 Using *PlatformIO* -> *Build*/*Upload* is the most reliable way to build a project and upload the firmware.
 
-<img src="../imgs/PlatformIO-Build-Upload.png">
+<img src="../../imgs/PlatformIO-Build-Upload.png">
 
 ### Using Native ESP-IDF Project with PlatformIO
 
@@ -69,7 +69,7 @@ If IDF_PATH has issue, refer to
 ### Load a project
 Load a project by opening the project folder.
 
-<img src="../imgs/vscode-espidf-openfolder.png">
+<img src="../../imgs/vscode-espidf-openfolder.png">
 
 ### Build, upload firmware via icons
 

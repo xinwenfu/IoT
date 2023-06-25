@@ -19,6 +19,8 @@ A crystal is basically a clock, which is needed by the CPU to run.
 An antenna is needed by Wi-Fi and bluetooth to reach a decent communication range.
 Different manufacturers may integrate different components onto the module.
 
+<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/ESP-WROOM-32-Internal.png" width=480>
+
 ## ESP32 Development Board 
 
 An ESP32 development board may contain an ESP32 module and other supporting components on a printed circuit board (PCB) so that programmers can try to become acquainted with the ESP32. We may also test our project code on the development board.

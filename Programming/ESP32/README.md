@@ -19,6 +19,8 @@ A crystal is basically a clock, which is needed by the CPU to run.
 An antenna is needed by Wi-Fi and bluetooth to reach a decent communication range.
 Different manufacturers may integrate different components onto the module.
 
+The picture below shows the internals of the ESP-WROOM-32 module.
+
 <img src="https://github.com/xinwenfu/IoT/blob/main/imgs/ESP-WROOM-32-Internal.png" width=320>
 
 ## ESP32 Development Board 

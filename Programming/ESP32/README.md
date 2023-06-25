@@ -25,6 +25,7 @@ An ESP32 development board may contain an ESP32 module and other supporting comp
 In the real world, we may have to develop our own PCB with an ESP32 MCU or an ESP32 module to achieve desired functionalities.
 For example we can integrate a SD card or sensors onto the PCB so that the ESP32 is used to read the sensor data data and store it on the SD card. Ot course, the ESP32 supports WiFi and Bluetooth and can send the data over the Internet. 
 
+[IoT Kit](https://github.com/xinwenfu/IoT/blob/main/imgs/IoTkit-FrontBack.png)
 
 This image is of the development board,  it has a so we add the micro-USB port which is used to so you can power up the development board and ESP32module easily. This micro-USB port also works as a data communication channel. You can see labeled in the image a USB-UART bridge, the ESP32 module itself doesn't support usb. We use this bridge, the USB-UART chip to convert the USB signal into a UART signal. UART is another kind of communication protocol supported by most microcontrollers. That's why we needed this bridge, this chip to convert the micro usb signal into the url signal so that the ESP32 can understand the signal. Why do we have so many legs along the sides? 
 

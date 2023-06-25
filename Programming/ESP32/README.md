@@ -6,32 +6,24 @@ A  is basically a small computer. It's a type of System on Chip (SoC). We know t
 
 ## ESP32
 
-ESP32 is a MCU. It has a dual core processor clocked at 230 Mhz. It has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 has 520 KB of SRAM, Wi-Fi, bluetooth and 32 I/O pins. Those IO pins can interact with the external sensors, actuators and other things. Here is the block diagram of the ESP32 microcontroller. The ESP32 doesn't have the embedded flash itself.
+ESP32 is a MCU made by Espressif. It has a dual core processor clocked at 230 Mhz. It has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 has 520 KB of SRAM, Wi-Fi, bluetooth and 32 I/O pins. Those IO pins can interact with the external sensors, actuators and other things. Here is the block diagram of the ESP32 microcontroller. The ESP32 doesn't have the embedded flash itself.
 
 ![image](Espressif_ESP32_Chip_Function_Block_Diagram.png)
 
-The ESP32 needs some additional components to work as a computer. Various *ESP32 modules* are created to include embedded flash, crystal (for the RTC), an antenna and other components. A module has the flash memory so that it can contain firmware and data. A crystal is basically a clock, which is needed by the CPU to run. An antenna is needed by Wi-Fi and bluetooth to reach a decent communication range.
+## ESP32 Module
+Various *ESP32 modules* are created to include the ESP32 MCU, embedded flash, crystal (for the RTC), an antenna and other components and work fully as a computer. 
+A module has the flash memory so that it can contain programs, data, configuration parameters and other data.
+The flash is connected to the ESP32 via the SPI bus and the supported capacity is up to 16Mb.
+The official Espressif module (ESP-WROOM-32) includes a 4Mb flash memory.
+A crystal is basically a clock, which is needed by the CPU to run.
+An antenna is needed by Wi-Fi and bluetooth to reach a decent communication range.
+Different manufacturers may integrate different components onto the module.
 
-This module contains the ESP32 system on chip, flash memory, antenna, and a clock integrated inside this chip so it's become another system on  chip which you  can use directly. These modules are more for practical use as you don't have to add all the necessary components manually yourself. It integrates the ESP32 and other necessary accessories, and you may want to integrate other things into these modules, think well i want a sd card and the one i want to integrate sd card into hereif you are the manufacturer you can., as t They design the modules so if you want to add a SD card to the module directly you have to be the manufacturer, They just added those components to esp32 so this will work as a minimum System on Chip. There are different versions of modules for the ESP32, and you can see here the version on the left  is
-called the ESP-WROOM-32 and the one on the right is an ESP-32S. Manufacturers integrate different components onto the module, or they may have different layout or some other things but the core part is still the ESP32.
+## ESP32 Development Board 
 
-
-If you just have a CPU you have to add all the other things yourself, so that you can use this CPU. The System on Chip means they already add the necessary components so you can at least run code. If it is not a System on Chip and just a CPU you have to add all other necessary components to make it a minimum working unit.
-The ESP32 SoC has ROM SRAM and other components but it does not have flash memory, so you can see the difference.
-SoC is a minimum working unit!
-
-
-Slide 7: Flash
-{Image on Slides}
-
-This is the  flash (see highlighted aria of image), when you remove the cover of the larger ESP32 module this is the inside. They integrated a lot of other things around the ESP32 chip, you can see the flash and other supporting circuits. This image is of the ESP-WROOM-32 this is the one we are using.  People may be confused about the relationship between the ESP32 module (The large silver/metal square with ESP-WROOM-32 on it) and the larger device it is located on. 
-
-
-
-
-Slide 8: Development Board 
-
-The ESP32 module is on a PCB board which provides and extends the functionality of the ESP32 module by connecting it to more circuits. This whole thing is called a development board. Normally they are used for testing your project. You can use the whole development board on your product but normally this is just for you to test your code and see if it works. In the real industry you have to develop your own circuits around the ESP32 modules. Normally you purchase a ESP32 module and you develop your own board and then everything will work. For example you can integrate a SD card or other sensors onto your own board. This development board is designed for you to do the testing.
+An ESP32 development board may contain an ESP32 module and other supporting components on a printed circuit board (PCB) so that programmers can try to become acquainted with the ESP32. We may also test our project code on the development board.
+In the real world, we may have to develop our own PCB with an ESP32 MCU or an ESP32 module to achieve desired functionalities.
+For example we can integrate a SD card or sensors onto the PCB so that the ESP32 is used to read the sensor data data and store it on the SD card. Ot course, the ESP32 supports WiFi and Bluetooth and can send the data over the Internet. 
 
 
 This image is of the development board,  it has a so we add the micro-USB port which is used to so you can power up the development board and ESP32module easily. This micro-USB port also works as a data communication channel. You can see labeled in the image a USB-UART bridge, the ESP32 module itself doesn't support usb. We use this bridge, the USB-UART chip to convert the USB signal into a UART signal. UART is another kind of communication protocol supported by most microcontrollers. That's why we needed this bridge, this chip to convert the micro usb signal into the url signal so that the ESP32 can understand the signal. Why do we have so many legs along the sides? 

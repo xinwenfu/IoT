@@ -10,21 +10,7 @@ However, sometimes, we want to use Espressif tools from a terminal within our Ub
 
 ## Load, build and flash an example project
 
-1. Start VS Code
-2. File -> Open Folder 
-  - Example project: /home/iot/esp/esp-idf/examples/wifi/scan
-2. ESP-IDF Build project
-3. ESP-IDF Flash device -> UART
-  - If “No such file or directory: '/dev/ttyUSB1'”, pressing F1, typing "ESP-IDF: Select port to use:" -> /dev/ttyUSB0
-  - During connecting to /dev/ttyUSB0, may need to hold the BOOT (IO0) button of the ESP32 until uploading starts
-  - If still errors, unplug and re-plug the kit
-  - If still errors, change a USB port since different USB ports may provide different power supplies
-3. ESP-IDF Monitor device
-4. Press reset button of the IoT kit
-5. File -> Close Folder to close a project
-
-If IDF_PATH has issue, refer to 
-[Add IDF_PATH & idf.py PATH to User Profile](https://docs.espressif.com/projects/esp-idf/en/v3.3.1/get-started-cmake/add-idf_path-to-profile.html)
+Please refer to [Get started with ESP32 via VS Code and the ESP-IDF extension](https://github.com/xinwenfu/tst-dht-lab).
 
 ### Load a project
 Load a project by opening the project folder.
@@ -34,7 +20,6 @@ Load a project by opening the project folder.
 ### Build, upload firmware via icons
 
 <img src="https://github.com/xinwenfu/IoT/blob/main/imgs/vscode-espidf-icons.png" width=720>
-
 
 ## Native ESP-IDF programming environment
 This is a great guide on [Get Started - ESP32 - — ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/).

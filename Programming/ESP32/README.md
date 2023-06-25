@@ -1,23 +1,18 @@
 # ESP32
 
-## Microcontroller
+## Microcontroller (MCU)
 
-A microcontroller is basically a small computer. It's called a System on Chip which may be abbreviated to SoC. System on Chip means that everything is put on one chip
-and that chip is the main component of the computer. If you are given just a CPU you cannot really do anything because we also need accessories. We need a  motherboard, main memory - RAM, we need to get user input with a keyboard, and we need many other things to actually utilize and communicate with the cpu. We need to utilize a lot more than just the cpu to get it to  can work on and execute the code. The microcontroller normally has everything it needs to execute code; it has a CPU, flash memory, main memory - RAM, and the other necessary accessories to execute code.
+A  is basically a small computer. It's a type of System on Chip (SoC). We know the CPU is the central processing unit or processor, the brain of a computer. However, the CPU needs other components to be really useful, such as RAM, I/O and flash storage. The MCU often has a CPU, main memory - RAM, and the other necessary components to execute code.
 
-Let's first look at the ESP8266, the predecessor of the esp32. Both ESP8266 and ESP32 are microcontrollers. 
-The ESP8266 is a kind of  system on a chip. It has a lot of things already integrated on the chip so it's ready to be integrated intowith  your product. The ESP8266 was pretty good, and is very cheap and very robust. When the ESP8266 first came out the firmware was really bad, the firmware of the chip was developed by amateurs. However they found the chip was very powerful, so the maker community developed alternative frameworks like the NodeMCU which is the most popular one, and the one we are using. The problem with the ESP8266 is that it has no security, and that's why in September 2016 they released another version of a similar chip. The ESP32.
+## ESP32
 
-
-
-Slide 4: ESP32
-
-Compared with the ESP8266 the ESP32 is actually pretty powerful, it's dual core
-processor clocked at 230 Mhz. This is a very powerful CPU compared with other low power microcontrollers, as many of the low power microcontrollers run at about 14 or 16 megahertz.  The reason they are clocked at low speeds isis that they want to achieve no energy consumption.  This one i guess is not really designed for low power consumption products because the cpu speed is so high. The ESP32 can run all the crypto algorithms even just using the software without hardware accelerators, but it also has the hardware acceleration. This means it has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 chips support acceleration of RSA but even if you just use the software itself and you don't use the hardware acceleration it's pretty decent.  People often think IoT  uses low end components a kind of a really low end of uh stuff,that don't support encryption and other things but that's wrong. Even the 14 MHz microcontroller can do all the crypto calculations “”. The main only reason IoT devices are not secureyou know lt is not secure is a is people don't know how to program them to be secure.When you program those chips and you want to add security encryption and other security features things into your software you have to learn more things.  The SRAMram  of the ESP32 is about 520 kilobytes, it has Wi-Fi, bluetooth and it also has a 32 IO pins. Those IO pins can interact with the external sensors, actuators and other things as there is almost an unlimited number of possibilities with what you can interact with using them . 
-
-Slide 5: Block Diagram
+ESP32 is a MCU. It has a dual core processor clocked at 230 Mhz. It has a particular circuit to speed up the crypto algorithms like AES, SHA2 and RSA. The ESP32 has 520 KB of SRAM, Wi-Fi, bluetooth and 32 I/O pins. Those IO pins can interact with the external sensors, actuators and other things.
 
 Here is the block diagram of the ESP32 microcontroller. On the left there is a block for SPI which is a communication port. This is a module itself; the ESP32 doesn't have the embedded flash itself; it is something you can add to the module. The embedded flash is added so you can put your code on it and the ESP32 can store and access it. The ESP32 has all the communication ports as well. The problem is that you need the flash, clock and other things to directly use the ESP32 chip.
+
+![image](https://en.wikipedia.org/wiki/ESP32#/media/File:Espressif_ESP32_Chip_Function_Block_Diagram.svg)
+
+
 
 Slide 6: ESP32 Modules
 

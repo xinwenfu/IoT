@@ -18,7 +18,6 @@ We use an Ubuntu VM and Visual Studio Code for prorgamming.
 2. [Porgramming V2 of IoT kit via VS Code + ESP-IDF](https://github.com/xinwenfu/IoT/tree/main/Programming/ProgramV2)
 
 ## IoT security and privacy Labs
-All the code is pre-installed in the Ubuntu VM.
 
 1. [Get started with ESP32 via VS Code and the ESP-IDF extension](https://github.com/xinwenfu/tst-dht-lab)
 2. [Read Sensor Data and Show on Display](https://github.com/DaintyJet/ESP32-Display)

@@ -21,7 +21,7 @@ Different manufacturers may integrate different components onto the module.
 
 The picture below shows the [internals of the ESP-WROOM-32 module](https://en.wikipedia.org/wiki/ESP32).
 
-<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/ESP-WROOM-32-Internal.png" width=320>
+<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/ESP-WROOM-32-Internal.png" width=480>
 
 ## ESP32 Development Board 
 

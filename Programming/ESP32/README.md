@@ -11,7 +11,7 @@ ESP32 is a MCU made by <a href="https://www.espressif.com/en/products/socs/esp32
 <img src="https://github.com/xinwenfu/IoT/blob/main/imgs/Espressif_ESP32_Chip_Function_Block_Diagram.png" width=720>
 
 ## ESP32 Module
-Various *ESP32 modules* are created to include the ESP32 MCU, embedded flash, crystal (for the RTC), an antenna and other components and work fully as a computer. 
+Various *ESP32 modules* are created to include the ESP32 MCU, embedded flash, crystal (for the RTC), an antenna and other components so as to work fully as a computer. 
 A module has the flash memory so that it can contain programs, data, configuration parameters and other data.
 The flash is connected to the ESP32 via the SPI bus and the supported capacity is up to 16Mb.
 The official Espressif module (ESP-WROOM-32) includes a 4Mb flash memory.

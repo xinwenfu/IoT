@@ -2,7 +2,7 @@
 
 For our Version 2 of the IoT kit, we will use Visual Studio Code (VS Code), an open source code editor made by Microsoft. Various extensions can be added to VS Code and support particular programming languages, debuggers, and tools. We will use the ESP-IDF extension by Espressif.
 
-However, sometimes, we want to use Espressif tools from a terminal within our Ubuntu VM. We can launch those tools within VS Code by opening a terminal with the ESP-IDF extension.
+However, sometimes, we want to use Espressif tools from a terminal. We can launch those tools within VS Code by opening a terminal with the ESP-IDF extension.
 
 ## Setup (Optional)
 1. [Installation of VS Code ESP-IDF extension](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)

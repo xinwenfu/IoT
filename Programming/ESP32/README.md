@@ -2,7 +2,7 @@
 
 ## Microcontroller (MCU)
 
-A microcontroller (MCU) is a type of System on Chip (SoC). We know the CPU is the central processing unit or processor, the brain of a computer. However, the CPU needs other components to be really useful, such as RAM, I/O and flash storage. The MCU often has a CPU, main memory - RAM, and the other necessary components to execute code.
+A microcontroller (MCU) is a type of System on Chip (SoC). We know the CPU is the central processing unit or processor, the brain of a computer. However, the CPU needs other components to be really useful, such as RAM, I/O and flash storage. The MCU often has a CPU, main memory - RAM, and other necessary components to store and execute code and perform operations on peripherals.
 
 ## ESP32
 

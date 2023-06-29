@@ -30,7 +30,7 @@ We use an Ubuntu VM and Visual Studio Code for prorgamming.
 7. [Secure ESP32 OTA through HTTPS](https://github.com/PBearson/Get-Started-With-ESP32-OTA)
 8. [MITM attacks against http and https through mitmproxy](https://github.com/xinwenfu/mitmproxy-get)
 9. Network Security on ESP32 through Amazon AWS IoT: [ESP-IDF original example](https://github.com/xinwenfu/Network-Security-on-ESP32)
-10. Network Security on ESP32 through Amazon AWS IoT:[PlatformIO Project](https://github.com/xinwenfu/platformio-espidf-aws-iot)
+10. Network Security on ESP32 through Amazon AWS IoT: [PlatformIO Project](https://github.com/xinwenfu/platformio-espidf-aws-iot)
 11. [Provisioning Crypto Coprocessor](https://github.com/PBearson/Provision-ECC608)
 12. [ESP32 AWS IoT with Crypto Coprocessor](https://github.com/PBearson/esp-aws-iot/blob/master/)
 13. ESP32 Secure storage: [Flash Encryption](https://github.com/PBearson/ESP32_Flash_Encryption_Tutorial)

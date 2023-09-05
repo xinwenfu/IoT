@@ -21,7 +21,7 @@ Different manufacturers may integrate different components onto a module.
 
 The picture below shows the [internals of the ESP-WROOM-32 module](https://en.wikipedia.org/wiki/ESP32). Note the ESP-WROOM-32 module is mounted on a printed circuit board (PCB).
 
-<img src="../imgs/ESP-WROOM-32-Internal.png" width=480>
+<img src="../../imgs/ESP-WROOM-32-Internal.png" width=480>
 
 ## ESP32 Development Board 
 
@@ -29,7 +29,7 @@ An ESP32 development board may contain an ESP32 module and other supporting comp
 In the real world, we may have to develop our own PCB with an ESP32 MCU or an ESP32 module to achieve desired functionalities.
 For example we can integrate a SD card or sensors onto the PCB so that the ESP32 is used to read the sensor data data and store it on the SD card. Of course, the ESP32 supports WiFi and can send the data over the Internet. 
 
-<img src="../imgs/IoTkit-FrontBack.png" width=720>
+<img src="../../imgs/IoTkit-FrontBack.png" width=720>
 
 Out IoT kit is a development board. The ESP-WROOM-32 module we use doesn't support USB, but UART. The micro-USB port on our IoT kit is used to power up the development board and program the ESP32. A USB-UART bridge chip on the development board is used to convert an USB signal into an UART signal. UART is a kind of communication protocol supported by most microcontrollers.
 
@@ -48,4 +48,4 @@ Apparently, the MCU and its pheripheral such as a sensor must use the same proto
 
 Below is the [pin layout of the ESP-WROOM-32 module](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/) on our IoT kit. Refer to [ESP32-WROOM-32_datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf) for the definitions of those pins.
 
-<img src="../imgs/esp32-pinout-chip-ESP-WROOM-32.png" width=720>
+<img src="../../imgs/esp32-pinout-chip-ESP-WROOM-32.png" width=720>

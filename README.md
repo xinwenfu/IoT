@@ -17,7 +17,7 @@ We use an Ubuntu VM and Visual Studio Code for prorgamming.
 1. [Introduction to ESP32](https://github.com/xinwenfu/IoT/tree/main/Programming/ESP32)
 2. [Porgramming V2 of IoT kit via VS Code + ESP-IDF](https://github.com/xinwenfu/IoT/tree/main/Programming/ProgramV2)
 
-<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/IoT-Kit-Working.jpg" width=320>
+<img src="imgs/IoT-Kit-Working.jpg" width=320>
 
 ## IoT security and privacy Labs
 

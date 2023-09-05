@@ -15,11 +15,11 @@ Please refer to [Get started with ESP32 via VS Code and the ESP-IDF extension](h
 ### Load a project
 Load a project by opening the project folder.
 
-<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/vscode-espidf-openfolder.png" width=720>
+<img src="../../imgs/vscode-espidf-openfolder.png" width=720>
 
 ### Build, upload firmware via icons
 
-<img src="https://github.com/xinwenfu/IoT/blob/main/imgs/vscode-espidf-icons.png" width=720>
+<img src="../../imgs/vscode-espidf-icons.png" width=720>
 
 ## Native ESP-IDF programming environment
 Within VS Code, on the menu bar, click *Terminal*->*New Terminal* to start a new terminal and use the native ESP-IDF programming environment.

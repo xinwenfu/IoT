@@ -22,7 +22,7 @@ list(APPEND EXTRA_COMPONENT_DIRS esp-aws-iot)
 3. [Get started with ESP-IDF and ESP32-DevKitC: debugging, unit testing, project analysis](https://docs.platformio.org/en/stable/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html)
    - Note: follow the steps. Otherwise, errors such as monitor speed rate may happen
    - [pio\libdeps\esp32dev\DHT sensor library\DHT_U.h:36:29: fatal error: Adafruit_Sensor.h: No such file or directory](https://community.platformio.org/t/pio-libdeps-esp32dev-dht-sensor-library-dht-u-h29-fatal-error-adafruit-sensor-h-no-such-file-or-directory/21861)
-     - The solution is simple. Add the following include statements to main.cpp:
+     - The solution is simple. Add the following *include* statements to main.cpp:
 
 ``` 
 #include <Adafruit_Sensor.h>

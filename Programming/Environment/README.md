@@ -1,7 +1,7 @@
 # Programming 
 
 There are at least four options of programming for ESP32: 
-1. VS Code + PlatformIO
+1. [VS Code + PlatformIO](#vs-code--platformio)
 2. VS Code + ESP-IDF3
 3. Native ESP-IDF programming environment
 4. Arduino IDE.

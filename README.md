@@ -21,7 +21,7 @@ We use an Ubuntu VM and Visual Studio Code for prorgamming.
 
 ## IoT security and privacy Labs
 
-1. [Get started with ESP32 via VS Code and the ESP-IDF extension](https://github.com/xinwenfu/tst-dht-lab)
+1. [Get started with ESP32 via VS Code and the ESP-IDF extension](https://github.com/xinwenfu/tst-dht-lab--pcb-2)
 2. [Read Sensor Data and Show on Display](https://github.com/DaintyJet/ESP32-Display)
 3. [ESP32 UART and Flash Hack](https://github.com/xinwenfu/ESP32-UART-and-Flash-Hack)
 4. JTAG Debugging of ESP32: [PCB Version](https://github.com/PBearson/ESP32-PCB-With-ESP-PROG-Demo)
